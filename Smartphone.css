@@ -1,0 +1,106 @@
+/* The device with borders */
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: white;
+    background-image: url('bg_brown.jpg'); 
+}
+  
+/* The horizontal line on the top of the device */
+.smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+}
+  
+/* The circle on the bottom of the device */
+.smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -75px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+    border: 4px silver inset;
+}
+  
+/* The screen (or content)of the device */
+.smartphone .content {
+    width: 360px;
+    height: 640px;
+    background: white;
+}
+#contentBar {
+    background-color: transparent;
+    height: 450px;
+    padding-top: 4px;
+}
+.widget {
+    background-color: rgba(212, 232, 250, 0.4);
+    margin: 8px 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.widgetHeader {
+    padding: 6px;
+    background-color: rgba(247, 250, 252, 0.7);
+    color: #555;
+    border-radius: 4px 4px 0 0;
+}
+.widget ul {
+    -webkit-padding-start: 10px;
+    list-style-type: none;
+    -webkit-margin-before: .1em;
+    -webkit-margin-after: .1em;
+    -webkit-margin-end: 4px;
+}
+.widget li {
+    margin-bottom: 8px;
+}
+
+.widget a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.channelName {
+    font-size: small;
+    margin-bottom: 4px;
+}
+.topic {
+    padding-top: 2px;
+}
+
+.topicHeader {
+    padding: 2px 6px;
+    font-weight: bold;
+    cursor: default;
+    color: black;
+}
+
+.topicHeaderHighlight {
+    color: firebrick;
+}
+
+.topicBody {
+    display: none;
+}
+

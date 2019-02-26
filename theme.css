@@ -1,0 +1,116 @@
+h1 {
+   text-align:center; 
+   background-color:powderblue;
+   color: black;
+   font-size: 1.5em;
+   margin: 0px;
+   padding:8px;
+}
+.entity_header {
+   background-color:#229922;
+   margin:0px; 
+   padding:4px 8px;
+   border-radius:4px 4px 0px 0px
+}
+.entity_body {
+   background-color:#DDFFDD;
+   margin:0px;
+   padding:4px;
+   border-radius:0px 0px 4px 4px
+}
+.message_positive{
+   background-color:lightgray;
+   color:black;
+   border-left:4.5px solid green;
+   margin:2px;  
+   padding:4px;border-radius:0px 0px 0px 0px  
+}
+.message_negative{
+   background-color:lightgray;
+   color:black;
+   border-left:4.5px solid red;
+   margin:2px;  
+   padding:4px;border-radius:0px 0px 0px 0px  
+}
+.message_neutral{
+   background-color:lightgray;
+   color:black;
+   border-left:4.5px solid orange;
+   margin:2px;  
+   padding:4px;border-radius:0px 0px 0px 0px  
+}
+.message_none{
+   background-color:pink; 
+   margin:2px;  
+   padding:4px;border-radius:0px 0px 0px 0px  
+}
+
+.topics{
+   background-color:Powderblue;
+   margin:2px; 
+   padding:4px;
+   border-radius:0px 0px 0px 0px
+}
+.summary{
+   background-color:lightgray; 
+   margin:2px;  
+   padding:4px;
+   border-radius:0px 0px 0px 0px
+}
+
+.widget {
+    background-color: rgba(212, 232, 250, 0.4);
+    margin: 8px 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.widgetHeader {
+    padding: 6px;
+    background-color: rgba(247, 250, 252, 0.7);
+    color: #555;
+    border-radius: 4px 4px 0 0;
+}
+.widget ul {
+    -webkit-padding-start: 10px;
+    list-style-type: none;
+    -webkit-margin-before: .1em;
+    -webkit-margin-after: .1em;
+    -webkit-margin-end: 4px;
+    padding-left:10px;
+}
+.widget li {
+    margin-bottom: 8px;
+}
+
+.widget a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.channelName {
+    font-size: small;
+    margin-bottom: 4px;
+}
+.topic {
+    padding-top: 2px;
+}
+
+.topicHeader {
+    padding: 2px 6px;
+    font-weight: bold;
+    cursor: default;
+    color: black;
+}
+
+.topicHeaderHighlight {
+    color: firebrick;
+}
+
+.topicBody {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
